@@ -1,10 +1,13 @@
 
+const client_id = '130aba0ee5c2488fbf4289d1cb1148e6';
+const client_secret = 'c3be6a45f9e04baf9e23bddb928aad9d';
+
 async function getToken() {
     const url = "https://accounts.spotify.com/api/token";
     const data = new URLSearchParams();
     data.append('grant_type', 'client_credentials');
-    data.append('client_id', '130aba0ee5c2488fbf4289d1cb1148e6');
-    data.append('client_secret', 'c3be6a45f9e04baf9e23bddb928aad9d');
+    data.append('client_id', client_id);
+    data.append('client_secret', client_secret);
 
     const response = await fetch(url, {
         method: 'POST',
