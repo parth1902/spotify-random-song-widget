@@ -1,0 +1,267 @@
+.desktop {
+    background-color: #deeffb;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+
+@font-face {
+  font-family: 'Poppins Medium';
+    src: url('fonts/Poppins-Medium.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Poppins-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/Poppins-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/Poppins-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+        url('fonts/Poppins-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('fonts/Poppins-Medium.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins Medium-Italic';
+    src: url('fonts/Poppins-MediumItalic.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Poppins-MediumItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/Poppins-MediumItalic.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/Poppins-MediumItalic.woff') format('woff'), /* Pretty Modern Browsers */
+        url('fonts/Poppins-MediumItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('fonts/Poppins-MediumItalic.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Playfair Display-SemiBold';
+    src: url('fonts/PlayfairDisplay-SemiBold.eot'); /* IE9 Compat Modes */
+    src: url('fonts/PlayfairDisplay-SemiBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/PlayfairDisplay-SemiBold.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/PlayfairDisplay-SemiBold.woff') format('woff'), /* Pretty Modern Browsers */
+        url('fonts/PlayfairDisplay-SemiBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('fonts/PlayfairDisplay-SemiBold.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body {
+    background-color: #deeffb; /* Replace with the color code you desire */
+    overflow: hidden; 
+}
+
+.desktop .div {
+    background-color: #deeffb;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+}
+
+.desktop .text-wrapper {
+    position: absolute;
+    height: 20px;
+    top: 421px;
+    left: -2px;
+    transform: rotate(180deg);
+    font-family: "Playfair Display-SemiBold";
+    font-weight: 600;
+    color: #3B3B3B;
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    line-height: 20px;
+    white-space: nowrap;
+}
+
+.desktop .group {
+    position: absolute;
+    width: 525px;
+    height: 392px;
+    top: 350px;
+    left: 182px;
+}
+
+.desktop .play-a-mellow-song {
+    position: absolute;
+    width: 579px;
+    height: 300px;
+    top: 30px;
+    right: 3px;
+    transform: rotate(180deg);
+    font-family: "Poppins Medium";
+    font-weight: 500;
+    color: transparent;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.desktop .span {
+    color: #3b3b3b;
+}
+
+.desktop .text-wrapper-3 {
+    color: #006dc1;
+}
+
+.desktop .text-wrapper-4 {
+    color: #f80000;
+}
+
+.desktop .button-dark {
+    display: flex;
+    flex-direction: column;
+    width: 147px;
+    height: 52px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 150px;
+    left: 375px;
+    background-color: #b6dcf7;
+    border-radius: 48px;
+    overflow: hidden;
+    transform: rotate(180deg);
+    box-shadow: 0px 2px 1.9px #00000026;
+}
+
+.desktop .state-layer {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 24px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.desktop .label-text {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Poppins Medium";
+    font-weight: 500;
+    color: #3a3a3a;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    line-height: 20px;
+    white-space: nowrap;
+}
+
+.desktop .text-wrapper-5 {
+    position: absolute;
+    height: 20px;
+    top: 237px;
+    left: 420px;
+    transform: rotate(180deg);
+    font-family: "Poppins Medium";
+    font-weight: 500;
+    font-style: italic;
+    color: #3b3b3b;
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 0.1px;
+    line-height: 20px;
+    white-space: nowrap;
+    width: 100px;
+}
+
+.desktop .group-2 {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    top: 430px;
+    left: 758px;
+}
+
+.desktop .unsplash-d {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 500;
+    left: 0;
+    object-fit: cover;
+}
+
+.desktop .controls {
+    display: inline-flex;
+    align-items: center;
+    gap: 17px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.desktop .unsplash-d {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    transform: rotate(180deg);
+}
+
+audio {
+    position: absolute;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px 0;
+    top: -80px;
+    left: 0px;
+    transform: rotate(180deg);
+    color: #3B3B3B;
+}
+
+.desktop .play {
+    position: relative;
+    width: 10.21px;
+    height: 11.45px;
+    transform: rotate(-180deg);
+}
+
+
+.desktop .text-wrapper-6 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "SF UI Text-Medium";
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.desktop .timeline-2 {
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    height: 5px;
+    background-color: #9d9895;
+    border-radius: 200px;
+}
+
+
+.desktop .volume {
+    position: relative;
+    width: 21.79px;
+    height: 15.69px;
+    transform: rotate(-180deg);
+}
+
+.desktop .airplay {
+    position: relative;
+    width: 16px;
+    height: 13px;
+    transform: rotate(-180deg);
+}
+
+.desktop .more {
+    position: relative;
+    width: 14.01px;
+    height: 13.02px;
+    transform: rotate(-180deg);
+}
+
+.desktop .button-dark {
+    /* ... your existing styles ... */
+    cursor: pointer !important; /* Add this line to change the cursor to a pointer */
+}
